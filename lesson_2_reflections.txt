@@ -1,15 +1,30 @@
 What happens when you initialize a repository? Why do you need to do it? 
-git init.   run git status after you have created the file. You should see that now both files are listed as untracked files.
 
-How is the staging area different from the working directory and the repository? What value do you think it offers
+	git init initializes a .git directory. Repositories stores history of meta data.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	Staging area includes the files to be committed to repository, but working directory is where all the files are located. 
+	It helps to keep commits small with one commit per logical change. 
 
 How can you use the staging area to make sure you have one commit per logical change?
 
+	Using git status, check the files included in the staging area so and commit them at once.
+
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	fixing bugs, new features, update docs, experimental features, etc..
+	Branches help keeping master keep going ahead, meanwhile branching some parts to add some features or experinting some ideas and finally merge them together if needed.
 
 How do the diagrams help you visualize the branch structure?
 
+	As git status just shows the commits of the respective heads, diagram helps visualize the entire structure. 
+
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	
+	By combining the branch with the master, we can create a single version that contains all the changes from both. History diagram helps visualize the entire process.
 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros are if there is a merge conflict, git can detect that conflict and lets us fix the conflict and then commit.
