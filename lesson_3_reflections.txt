@@ -16,3 +16,5 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 By using google docs, which is not as easier as git and github. 
 As Sarah mentioned, its harder or confused because github used the word pull request. It would be much easier and makes sense to use merge request instead.
  
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+ When there is a slight change in the master, its advised to branch it and fix your own way and then send a pull request so there is no conflicts between the branches.
