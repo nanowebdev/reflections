@@ -11,4 +11,8 @@ Describe the differences between forks, clones, and branches. When would you use
  A branch is something that is within a repository. Branches allows us to preserve the main code (the 'master' branch), make a copy (a new branch) and then work within that new branch. When we've finished, we merge the changes made in the branch back in to the master repository.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+By using google docs, which is not as easier as git and github. 
+As Sarah mentioned, its harder or confused because github used the word pull request. It would be much easier and makes sense to use merge request instead.
  
